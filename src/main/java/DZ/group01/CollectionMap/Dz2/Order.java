@@ -15,9 +15,9 @@ public class Order {
     Double sumOrder;
     List<String> order;
 
-    public Order(Double sumOrder){
+    public Order(Double sumOrder,List<String>order){
         this.sumOrder=sumOrder;
-        this.order=new ArrayList<>();
+        this.order = order;
     }
 
 
