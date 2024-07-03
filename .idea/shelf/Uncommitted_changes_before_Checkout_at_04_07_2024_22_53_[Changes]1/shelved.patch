@@ -1,0 +1,306 @@
+Index: src/test/java/DZ/group01/ShopTicket/TicketServiceTest.java
+===================================================================
+diff --git a/src/test/java/DZ/group01/ShopTicket/TicketServiceTest.java b/src/test/java/DZ/group01/ShopTicket/TicketServiceTest.java
+deleted file mode 100644
+--- a/src/test/java/DZ/group01/ShopTicket/TicketServiceTest.java	
++++ /dev/null	
+@@ -1,18 +0,0 @@
+-package DZ.group01.ShopTicket;
+-
+-import DZ.group01.ShopTicket.Ticket.TicketServise;
+-import org.junit.jupiter.api.Assertions;
+-import org.junit.jupiter.api.Test;
+-
+-public class TicketServiceTest {
+-    @Test
+-    public void distantionTicket1(){
+-        TicketServise ticketServise=new TicketServise();
+-        Assertions.assertEquals(1200,400);
+-    }
+-    @Test
+-    public void distantionTicket2(){
+-        TicketServise ticketServise=new TicketServise();
+-        Assertions.assertEquals(2000,4000);
+-    }
+-}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"11741bdf-b938-4bda-bce9-50e465e8150a\" name=\"Changes\" comment=\"Project Lesson GroupMap1\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PUSH_AUTO_UPDATE\" value=\"true\" />\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 7\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2iL3gZQviFOYLgG9utpBi8P4Pal\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.DZ.group01.CollectionMap.Dz1.Main.executor\": \"Run\",\r\n    \"Application.DZ.group01.CollectionMap.Dz2.Main.executor\": \"Run\",\r\n    \"Application.DZ.group01.CollectionMap.Dz3.Main.executor\": \"Run\",\r\n    \"Application.DZ.group01.CollectionSet.Dz2.Main.executor\": \"Run\",\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"Collection-map\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"C:/AndroidProject/Java/Intelegyidea\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"settings.editor.selected.configurable\": \"project.propVCSSupport.ChangelistConflict\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"Application.DZ.group01.CollectionMap.Dz3.Main\">\r\n    <configuration name=\"DZ.group01.CollectionMap.Dz1.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"DZ.group01.CollectionMap.Dz1.Main\" />\r\n      <module name=\"LessonGroup1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"DZ.group01.CollectionMap.Dz1.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"DZ.group01.CollectionMap.Dz2.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"DZ.group01.CollectionMap.Dz2.Main\" />\r\n      <module name=\"LessonGroup1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"DZ.group01.CollectionMap.Dz2.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"DZ.group01.CollectionMap.Dz3.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"DZ.group01.CollectionMap.Dz3.Main\" />\r\n      <module name=\"LessonGroup1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"DZ.group01.CollectionMap.Dz3.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"DZ.group01.CollectionSet.Dz2.Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"DZ.group01.CollectionSet.Dz2.Main\" />\r\n      <module name=\"LessonGroup1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"DZ.group01.CollectionSet.Dz2.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"DZ.group01.CollectionSet.Dz1.Main\" />\r\n      <module name=\"LessonGroup1\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"DZ.group01.CollectionSet.Dz1.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.DZ.group01.CollectionMap.Dz3.Main\" />\r\n        <item itemvalue=\"Application.DZ.group01.CollectionMap.Dz2.Main\" />\r\n        <item itemvalue=\"Application.DZ.group01.CollectionMap.Dz1.Main\" />\r\n        <item itemvalue=\"Application.DZ.group01.CollectionSet.Dz2.Main\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"11741bdf-b938-4bda-bce9-50e465e8150a\" name=\"Changes\" comment=\"\" />\r\n      <created>1719256144546</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1719256144546</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Project Lesson Group\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719501125059</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719501125059</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Project Lesson Group\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719501246077</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719501246077</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Project Lesson Group\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719501688797</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719501688797</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Project Lesson GroupMap\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719607876752</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719607876809</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Project Lesson GroupMap\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719608086879</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719608086879</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Project Lesson GroupMap1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719608238879</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719608238879</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Project Lesson GroupMap1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719608339695</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719608339695</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Project Lesson GroupMap1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1719608346431</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1719608346431</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"9\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Project|_LessonGroup\" />\r\n    <MESSAGE value=\"Project Lesson Group\" />\r\n    <MESSAGE value=\"Project Lesson GroupMap\" />\r\n    <MESSAGE value=\"Project Lesson GroupMap1\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Project Lesson GroupMap1\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-method\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/DZ/group01/CollectionMap/Dz1/Main.java</url>\r\n          <line>7</line>\r\n          <properties class=\"DZ.group01.CollectionMap.Dz1.Main\" method=\"main\">\r\n            <option name=\"EMULATED\" value=\"true\" />\r\n            <option name=\"WATCH_EXIT\" value=\"false\" />\r\n          </properties>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,7 +4,12 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="11741bdf-b938-4bda-bce9-50e465e8150a" name="Changes" comment="Project Lesson GroupMap1" />
++    <list default="true" id="11741bdf-b938-4bda-bce9-50e465e8150a" name="Changes" comment="Project Lesson GroupTest1">
++      <change afterPath="$PROJECT_DIR$/src/test/java/DZ/group01/ShopTicket/Ticket/TicketServiseTest.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/DZ/group01/ShopTicket/Ticket/TicketServise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ/group01/ShopTicket/Ticket/TicketServise.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/DZ/group01/ShopTicket/TicketServiceTest.java" beforeDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -14,6 +19,7 @@
+     <option name="RECENT_TEMPLATES">
+       <list>
+         <option value="Class" />
++        <option value="JUnit5 Test Class" />
+       </list>
+     </option>
+   </component>
+@@ -26,6 +32,18 @@
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
++  "lastFilter": {
++    "state": "OPEN",
++    "assignee": "Sergey32124"
++  }
++}]]></component>
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/Sergey32124/LessonGroup1.git",
++    "accountId": "0adf673f-c0c3-4218-9c60-4f1fd28b76ab"
++  }
++}]]></component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 7
+ }</component>
+@@ -41,22 +59,40 @@
+     "Application.DZ.group01.CollectionMap.Dz3.Main.executor": "Run",
+     "Application.DZ.group01.CollectionSet.Dz2.Main.executor": "Run",
+     "Application.Main.executor": "Run",
++    "JUnit.TicketServiseTest.createTicket.executor": "Run",
++    "JUnit.TicketServiseTest.createTicketWithDiscountIfLess1000.executor": "Run",
++    "JUnit.TicketServiseTest.createTicketWithDiscountIfMore1000.executor": "Run",
++    "JUnit.TicketServiseTest.createTicketWithDiscountIfMore2000.executor": "Run",
+     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
++    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
++    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+     "git-widget-placeholder": "Collection-map",
+     "kotlin-language-version-configured": "true",
+     "last_opened_file_path": "C:/AndroidProject/Java/Intelegyidea",
++    "node.js.detected.package.eslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
+     "node.js.selected.package.tslint": "(autodetect)",
+-    "settings.editor.selected.configurable": "project.propVCSSupport.ChangelistConflict"
++    "nodejs_package_manager_path": "npm",
++    "settings.editor.selected.configurable": "project.propVCSSupport.ChangelistConflict",
++    "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
+-  <component name="RunManager" selected="Application.DZ.group01.CollectionMap.Dz3.Main">
+-    <configuration name="DZ.group01.CollectionMap.Dz1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="DZ.group01.CollectionMap.Dz1.Main" />
++  <component name="RecentsManager">
++    <key name="CreateTestDialog.Recents.Supers">
++      <recent name="" />
++    </key>
++    <key name="CreateTestDialog.RecentsKey">
++      <recent name="DZ.group01.ShopTicket.Ticket" />
++    </key>
++  </component>
++  <component name="RunManager" selected="JUnit.TicketServiseTest.createTicketWithDiscountIfMore2000">
++    <configuration name="DZ.group01.CollectionMap.Dz3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="DZ.group01.CollectionMap.Dz3.Main" />
+       <module name="LessonGroup1" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="DZ.group01.CollectionMap.Dz1.*" />
++          <option name="PATTERN" value="DZ.group01.CollectionMap.Dz3.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -64,67 +100,87 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="DZ.group01.CollectionMap.Dz2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="DZ.group01.CollectionMap.Dz2.Main" />
++    <configuration name="TicketServiseTest.createTicket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="LessonGroup1" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="DZ.group01.CollectionMap.Dz2.*" />
++          <option name="PATTERN" value="DZ.group01.ShopTicket.Ticket.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
++      <option name="PACKAGE_NAME" value="DZ.group01.ShopTicket.Ticket" />
++      <option name="MAIN_CLASS_NAME" value="DZ.group01.ShopTicket.Ticket.TicketServiseTest" />
++      <option name="METHOD_NAME" value="createTicket" />
++      <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="DZ.group01.CollectionMap.Dz3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="DZ.group01.CollectionMap.Dz3.Main" />
++    <configuration name="TicketServiseTest.createTicketWithDiscountIfLess1000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="LessonGroup1" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="DZ.group01.CollectionMap.Dz3.*" />
++          <option name="PATTERN" value="DZ.group01.ShopTicket.Ticket.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
++      <option name="PACKAGE_NAME" value="DZ.group01.ShopTicket.Ticket" />
++      <option name="MAIN_CLASS_NAME" value="DZ.group01.ShopTicket.Ticket.TicketServiseTest" />
++      <option name="METHOD_NAME" value="createTicketWithDiscountIfLess1000" />
++      <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="DZ.group01.CollectionSet.Dz2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="DZ.group01.CollectionSet.Dz2.Main" />
++    <configuration name="TicketServiseTest.createTicketWithDiscountIfMore1000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="LessonGroup1" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="DZ.group01.CollectionSet.Dz2.*" />
++          <option name="PATTERN" value="DZ.group01.ShopTicket.Ticket.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
++      <option name="PACKAGE_NAME" value="DZ.group01.ShopTicket.Ticket" />
++      <option name="MAIN_CLASS_NAME" value="DZ.group01.ShopTicket.Ticket.TicketServiseTest" />
++      <option name="METHOD_NAME" value="createTicketWithDiscountIfMore1000" />
++      <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="DZ.group01.CollectionSet.Dz1.Main" />
++    <configuration name="TicketServiseTest.createTicketWithDiscountIfMore2000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="LessonGroup1" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="DZ.group01.CollectionSet.Dz1.*" />
++          <option name="PATTERN" value="DZ.group01.ShopTicket.Ticket.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
++      <option name="PACKAGE_NAME" value="DZ.group01.ShopTicket.Ticket" />
++      <option name="MAIN_CLASS_NAME" value="DZ.group01.ShopTicket.Ticket.TicketServiseTest" />
++      <option name="METHOD_NAME" value="createTicketWithDiscountIfMore2000" />
++      <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="JUnit.TicketServiseTest.createTicketWithDiscountIfMore2000" />
++        <item itemvalue="JUnit.TicketServiseTest.createTicketWithDiscountIfMore1000" />
++        <item itemvalue="JUnit.TicketServiseTest.createTicketWithDiscountIfLess1000" />
++        <item itemvalue="JUnit.TicketServiseTest.createTicket" />
+         <item itemvalue="Application.DZ.group01.CollectionMap.Dz3.Main" />
+-        <item itemvalue="Application.DZ.group01.CollectionMap.Dz2.Main" />
+-        <item itemvalue="Application.DZ.group01.CollectionMap.Dz1.Main" />
+-        <item itemvalue="Application.DZ.group01.CollectionSet.Dz2.Main" />
+-        <item itemvalue="Application.Main" />
+       </list>
+     </recent_temporary>
++  </component>
++  <component name="SharedIndexes">
++    <attachedChunks>
++      <set>
++        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
++        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
++      </set>
++    </attachedChunks>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -134,6 +190,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1719256144546</updated>
++      <workItem from="1720119078717" duration="1940000" />
+     </task>
+     <task id="LOCAL-00001" summary="Project Lesson Group">
+       <option name="closed" value="true" />
+@@ -199,15 +256,27 @@
+       <option name="project" value="LOCAL" />
+       <updated>1719608346431</updated>
+     </task>
+-    <option name="localTasksCounter" value="9" />
++    <task id="LOCAL-00009" summary="Project Lesson GroupTest1">
++      <option name="closed" value="true" />
++      <created>1720039252432</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1720039252432</updated>
++    </task>
++    <option name="localTasksCounter" value="10" />
+     <servers />
+   </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Project|_LessonGroup" />
+     <MESSAGE value="Project Lesson Group" />
+     <MESSAGE value="Project Lesson GroupMap" />
+     <MESSAGE value="Project Lesson GroupMap1" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Project Lesson GroupMap1" />
++    <MESSAGE value="Project Lesson GroupTest1" />
++    <option name="LAST_COMMIT_MESSAGE" value="Project Lesson GroupTest1" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+Index: src/test/java/DZ/group01/ShopTicket/Ticket/TicketServiseTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/DZ/group01/ShopTicket/Ticket/TicketServiseTest.java b/src/test/java/DZ/group01/ShopTicket/Ticket/TicketServiseTest.java
+new file mode 100644
+--- /dev/null	
++++ b/src/test/java/DZ/group01/ShopTicket/Ticket/TicketServiseTest.java	
+@@ -0,0 +1,31 @@
++package DZ.group01.ShopTicket.Ticket;
++
++import org.junit.jupiter.api.Test;
++
++import static org.junit.jupiter.api.Assertions.*;
++
++class TicketServiseTest {
++    TicketServise ticketServise = new TicketServise();
++
++    @Test
++    void createTicket() {
++    Ticket t=ticketServise.createTicket(50);
++    assertEquals(150,t.getPrice());
++    }
++
++    @Test
++    void createTicketWithDiscountIfLess1000() {
++        Ticket t=ticketServise.createTicketWithDiscount(500);
++        assertEquals(1500,t.getPrice());
++    }
++    @Test
++    void createTicketWithDiscountIfMore1000() {
++        Ticket t=ticketServise.createTicketWithDiscount(1001);
++        assertEquals(2002,t.getPrice());
++    }
++    @Test
++    void createTicketWithDiscountIfMore2000() {
++        Ticket t=ticketServise.createTicketWithDiscount(2050);
++        assertEquals(2050,t.getPrice());
++    }
++}
+\ No newline at end of file

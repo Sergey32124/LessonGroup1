@@ -1,0 +1,42 @@
+Index: src/test/java/DZ/group01/ShopTicket/Ticket/TicketServiseTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/DZ/group01/ShopTicket/Ticket/TicketServiseTest.java b/src/test/java/DZ/group01/ShopTicket/Ticket/TicketServiseTest.java
+new file mode 100644
+--- /dev/null	(date 1720122886537)
++++ b/src/test/java/DZ/group01/ShopTicket/Ticket/TicketServiseTest.java	(date 1720122886537)
+@@ -0,0 +1,31 @@
++package DZ.group01.ShopTicket.Ticket;
++
++import org.junit.jupiter.api.Test;
++
++import static org.junit.jupiter.api.Assertions.*;
++
++class TicketServiseTest {
++    TicketServise ticketServise = new TicketServise();
++
++    @Test
++    void createTicket() {
++    Ticket t=ticketServise.createTicket(50);
++    assertEquals(150,t.getPrice());
++    }
++
++    @Test
++    void createTicketWithDiscountIfLess1000() {
++        Ticket t=ticketServise.createTicketWithDiscount(500);
++        assertEquals(1500,t.getPrice());
++    }
++    @Test
++    void createTicketWithDiscountIfMore1000() {
++        Ticket t=ticketServise.createTicketWithDiscount(1001);
++        assertEquals(2002,t.getPrice());
++    }
++    @Test
++    void createTicketWithDiscountIfMore2000() {
++        Ticket t=ticketServise.createTicketWithDiscount(2050);
++        assertEquals(2050,t.getPrice());
++    }
++}
+\ No newline at end of file

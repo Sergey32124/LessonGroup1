@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11741bdf-b938-4bda-bce9-50e465e8150a" name="Changes" comment="Project Lesson GroupMap1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DZ/group01/CollectionMap/Dz3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DZ/group01/CollectionMap/Dz2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ/group01/CollectionMap/Dz2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DZ/group01/CollectionMap/Dz2/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DZ/group01/CollectionMap/Dz2/Order.java" afterDir="false" />
-    </list>
+    <list default="true" id="11741bdf-b938-4bda-bce9-50e465e8150a" name="Changes" comment="Project Lesson Group1 JUNIT 5 lesson 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,11 +17,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="task2-3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,38 +46,14 @@
     "Application.Main.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/AndroidProject/Java/Intelegyidea",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "project.propVCSSupport.ChangelistConflict"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DZ.group01.CollectionMap.Dz3.Main">
-    <configuration name="DZ.group01.CollectionMap.Dz1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DZ.group01.CollectionMap.Dz1.Main" />
-      <module name="LessonGroup1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DZ.group01.CollectionMap.Dz1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DZ.group01.CollectionMap.Dz2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DZ.group01.CollectionMap.Dz2.Main" />
-      <module name="LessonGroup1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DZ.group01.CollectionMap.Dz2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TicketServiseTest.createTicketWithDiscountIfMore2000">
     <configuration name="DZ.group01.CollectionMap.Dz3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DZ.group01.CollectionMap.Dz3.Main" />
       <module name="LessonGroup1" />
@@ -93,39 +67,77 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DZ.group01.CollectionSet.Dz2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DZ.group01.CollectionSet.Dz2.Main" />
+    <configuration name="TicketServiseTest.createTicket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LessonGroup1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DZ.group01.CollectionSet.Dz2.*" />
+          <option name="PATTERN" value="DZ.group01.ShopTicket.Ticket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="DZ.group01.ShopTicket.Ticket" />
+      <option name="MAIN_CLASS_NAME" value="DZ.group01.ShopTicket.Ticket.TicketServiseTest" />
+      <option name="METHOD_NAME" value="createTicket" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DZ.group01.CollectionSet.Dz1.Main" />
+    <configuration name="TicketServiseTest.createTicketWithDiscountIfLess1000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LessonGroup1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DZ.group01.CollectionSet.Dz1.*" />
+          <option name="PATTERN" value="DZ.group01.ShopTicket.Ticket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="DZ.group01.ShopTicket.Ticket" />
+      <option name="MAIN_CLASS_NAME" value="DZ.group01.ShopTicket.Ticket.TicketServiseTest" />
+      <option name="METHOD_NAME" value="createTicketWithDiscountIfLess1000" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketServiseTest.createTicketWithDiscountIfMore1000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LessonGroup1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DZ.group01.ShopTicket.Ticket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DZ.group01.ShopTicket.Ticket" />
+      <option name="MAIN_CLASS_NAME" value="DZ.group01.ShopTicket.Ticket.TicketServiseTest" />
+      <option name="METHOD_NAME" value="createTicketWithDiscountIfMore1000" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketServiseTest.createTicketWithDiscountIfMore2000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LessonGroup1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DZ.group01.ShopTicket.Ticket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DZ.group01.ShopTicket.Ticket" />
+      <option name="MAIN_CLASS_NAME" value="DZ.group01.ShopTicket.Ticket.TicketServiseTest" />
+      <option name="METHOD_NAME" value="createTicketWithDiscountIfMore2000" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TicketServiseTest.createTicketWithDiscountIfMore2000" />
+        <item itemvalue="JUnit.TicketServiseTest.createTicketWithDiscountIfMore1000" />
+        <item itemvalue="JUnit.TicketServiseTest.createTicketWithDiscountIfLess1000" />
+        <item itemvalue="JUnit.TicketServiseTest.createTicket" />
         <item itemvalue="Application.DZ.group01.CollectionMap.Dz3.Main" />
-        <item itemvalue="Application.DZ.group01.CollectionMap.Dz2.Main" />
-        <item itemvalue="Application.DZ.group01.CollectionMap.Dz1.Main" />
-        <item itemvalue="Application.DZ.group01.CollectionSet.Dz2.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -202,15 +214,53 @@
       <option name="project" value="LOCAL" />
       <updated>1719608346431</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Project Lesson Group1 JUNIT 5">
+      <option name="closed" value="true" />
+      <created>1720123483777</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720123483777</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Project Lesson Group1 JUNIT 5">
+      <option name="closed" value="true" />
+      <created>1720123516998</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720123516998</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Project Lesson Group1 JUNIT 5 lesson 1">
+      <option name="closed" value="true" />
+      <created>1720124127268</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720124127268</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project|_LessonGroup" />
     <MESSAGE value="Project Lesson Group" />
     <MESSAGE value="Project Lesson GroupMap" />
     <MESSAGE value="Project Lesson GroupMap1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Lesson GroupMap1" />
+    <MESSAGE value="Project Lesson GroupTest1" />
+    <MESSAGE value="Project Lesson Group1 JUNIT 5" />
+    <MESSAGE value="Project Lesson Group1 JUNIT 5 lesson 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Lesson Group1 JUNIT 5 lesson 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -218,7 +268,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/DZ/group01/CollectionMap/Dz1/Main.java</url>
           <line>7</line>
-          <properties class="DZ.group01.CollectionMap.Dz1.Main" method="main">
+          <properties class="DZ.group01.CollectionMap.Dz1.Main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
