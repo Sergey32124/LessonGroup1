@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11741bdf-b938-4bda-bce9-50e465e8150a" name="Changes" comment="Project Lesson Group1 JUNIT 5 lesson 1" />
+    <list default="true" id="11741bdf-b938-4bda-bce9-50e465e8150a" name="Changes" comment="Project Lesson Group 1 DZ">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_07_2024_22_53__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_04_07_2024_22_53__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_07_2024_23_25__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_07_2024_23_25__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_07_2024_23_31__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_07_2024_23_31__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,13 +27,40 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="task2-3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "OPEN",
+      "assignee": "Sergey32124",
+      "author": "Sergey32124"
+    }
+  ],
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Sergey32124",
+    "author": "Sergey32124"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Sergey32124/LessonGroup1.git",
+    "accountId": "0adf673f-c0c3-4218-9c60-4f1fd28b76ab"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -48,9 +80,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/AndroidProject/Java/Intelegyidea",
+    "last_opened_file_path": "C:/Users/user/Desktop/java/LessonMackito2/LessonsMackito2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.ChangelistConflict"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.ChangelistConflict",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.TicketServiseTest.createTicketWithDiscountIfMore2000">
@@ -141,6 +177,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -149,6 +193,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719256144546</updated>
+      <workItem from="1720199855545" duration="888000" />
     </task>
     <task id="LOCAL-00001" summary="Project Lesson Group">
       <option name="closed" value="true" />
@@ -238,8 +283,27 @@
       <option name="project" value="LOCAL" />
       <updated>1720124127268</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Project Lesson Group 1 DZ">
+      <option name="closed" value="true" />
+      <created>1720184383479</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720184383479</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Project Lesson Group 1 DZ">
+      <option name="closed" value="true" />
+      <created>1720184472534</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720184472534</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -260,7 +324,8 @@
     <MESSAGE value="Project Lesson GroupTest1" />
     <MESSAGE value="Project Lesson Group1 JUNIT 5" />
     <MESSAGE value="Project Lesson Group1 JUNIT 5 lesson 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Lesson Group1 JUNIT 5 lesson 1" />
+    <MESSAGE value="Project Lesson Group 1 DZ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Lesson Group 1 DZ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -268,7 +333,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/DZ/group01/CollectionMap/Dz1/Main.java</url>
           <line>7</line>
-          <properties class="DZ.group01.CollectionMap.Dz1.Main">
+          <properties class="DZ.group01.CollectionMap.Dz1.Main" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
