@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11741bdf-b938-4bda-bce9-50e465e8150a" name="Changes" comment="Project Lesson Group1 JUNIT 5 lesson 1" />
+    <list default="true" id="11741bdf-b938-4bda-bce9-50e465e8150a" name="Changes" comment="Project Lesson Group 1 DZ">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +46,7 @@
     "Application.DZ.group01.CollectionMap.Dz3.Main.executor": "Run",
     "Application.DZ.group01.CollectionSet.Dz2.Main.executor": "Run",
     "Application.Main.executor": "Run",
+    "JUnit.TicketServiseTest.createTicketWithDiscountIfMore2000.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -268,7 +271,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/DZ/group01/CollectionMap/Dz1/Main.java</url>
           <line>7</line>
-          <properties class="DZ.group01.CollectionMap.Dz1.Main">
+          <properties class="DZ.group01.CollectionMap.Dz1.Main" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
